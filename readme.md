@@ -20,14 +20,12 @@ The tokenizer base for those files is `o200k_base` which means that the vocabula
 
 ### Tokenizer base file
 
-You can find two additional files
+I tried to extract all tokens from the tiktoken tokenizer
 
-One represents the encoded base `o200k_base.tiktoken`
-
-And one the decoded base with base64/utf-8 encoding `o200k_base.txt`
+It holds the tokens in text format `o200k_base.txt`
 
 I had troubles to decode it. Some decodes didn't work properly.
 
 Does someone knows how to decode it propperly?
 
-You can run the decode with `python decode.py`
+You can run the decode with `python main.py`
