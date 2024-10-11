@@ -8,7 +8,7 @@ Since we started intially with a context length of 4096 I assumed that the follo
 
 But to keep it simple the big companies shortend it to 32k, 64k and 128k respectivelly.
 
-Hoever I kept it to the multiples of 4096.
+However I kept it to the multiples of 4096 and added 128k tokens.
 
 ### Tokenizer
 
